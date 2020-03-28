@@ -1,0 +1,31 @@
+<suite name = "Google">
+
+<test name = "tst_firefox_google">
+
+<parameter name = "x" value = "firefox"/>
+<classes>
+
+<class name = "P2.TestNG_google_ex"/>
+
+</classes>
+
+</test>
+
+
+<test name = "tst_chrome_google">
+
+<parameter name = "x" value = "chrome"/>
+<classes>
+
+<class name = "P2.TestNG_google_ex"/>
+
+</classes>
+
+</test>
+
+
+</suite>
+
+
+
+

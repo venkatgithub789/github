@@ -1,0 +1,16 @@
+<suite name = "s1"> 
+
+<test name = "t1"> 
+
+<classes>
+
+<class name = "P2.sample"/>
+<methods>
+<include name = "login"/>
+<include name ="registernewuser"/>
+<exclude name = "inbox"/>
+</methods>
+</classes>
+</test>
+</suite>
+
